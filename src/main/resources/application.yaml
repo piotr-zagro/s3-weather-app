@@ -1,0 +1,13 @@
+server:
+  port: 8080
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      static: us-west-2
+      auto: false
+    credentials:
+
+    s3:
+      bucket-name: piotr-zagro-sensor-data
